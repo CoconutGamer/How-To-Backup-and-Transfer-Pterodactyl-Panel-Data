@@ -26,3 +26,18 @@
 <br>
 
 2. Once new Wings are configured, migrate all your volumes from your old machine to the new one. By default, the path would be `/var/lib/pterodactyl/volumes/`. Check your Wings `config.yml` for your configured data path.
+
+### Updating allocations
+
+After the migration of volumes is done, you must update all the allocations since your IP most likely has changed.
+<br>
+
+Type ```hostname -I | awk '{print $1}'``` on your Wings machine to retrieve the IP. After that, login to your Panel machine to modify the database.
+
+In the example below, we assume that the database name is `panel`. Replace `newiphere`with the IP returned from the hostname command above while `oldiphere` with the IP of your old allocation.
+
+```mysql
+mysql -u root -p
+UPDATE panel.allocations SET ip = 'newiphere' WHERE ip = 'oldiphere';
+exit
+```
