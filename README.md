@@ -27,7 +27,7 @@
 
 2. Once new Wings are configured, migrate all your volumes from your old machine to the new one. By default, the path would be `/var/lib/pterodactyl/volumes/`. Check your Wings `config.yml` for your configured data path.
 
-### Updating allocations
+## Updating allocations
 
 After the migration of volumes is done, you must update all the allocations since your IP most likely has changed.
 <br>
