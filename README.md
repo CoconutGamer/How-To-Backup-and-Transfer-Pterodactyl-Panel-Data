@@ -8,7 +8,7 @@
 
 3. Follow the panel [installation Video's](https://www.youtube.com/watch?v=SbclGE3ovd8) to install the panel on your new server.
 <br>
--- Here is the documentation of Pterodactyl [Docs](https://pterodactyl.io).
+    - Here is the documentation of Pterodactyl [Docs](https://pterodactyl.io).
 
 4. Transfer the `panel.sql` file to your new server and import the database. Make sure you're in the folder containing your *.sql* dump when performing the commands.
 
