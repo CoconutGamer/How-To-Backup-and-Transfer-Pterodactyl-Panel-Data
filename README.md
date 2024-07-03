@@ -6,7 +6,7 @@
     ```
     The *.sql* file would be saved in the `/var/www/pterodactyl/` folder.
 
-3. Follow the panel [installation Video's](https://www.youtube.com/watch?v=Rcsd7AmFnAc&list=PLpYUyXTDvQJJlfergkeyW7er2n04x9Xfc](https://www.youtube.com/watch?v=SbclGE3ovd8) to install the panel on your new server.
+3. Follow the panel [installation Video's](https://www.youtube.com/watch?v=SbclGE3ovd8) to install the panel on your new server.
 <br>
 -- Here is the documentation of Pterodactyl [Docs](https://pterodactyl.io).
 
@@ -22,7 +22,7 @@
 
 ## Migrating Wings
 
-1. Follow the Wings [installation Video's]([SbclGE3ovd8](https://www.youtube.com/watch?v=SbclGE3ovd8) to install Wings on your new machine.
+1. Follow the Wings [installation Video's](https://www.youtube.com/watch?v=SbclGE3ovd8) to install Wings on your new machine.
 
 <br>
 
